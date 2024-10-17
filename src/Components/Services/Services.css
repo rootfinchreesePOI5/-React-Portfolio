@@ -1,0 +1,59 @@
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 6% 5rem;
+}
+.services-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 5rem;
+    gap: 2rem;
+}
+.services-format{
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.services-format h3{
+    font-size: 28px ;
+    font-weight: 600;
+}
+.services-format h2{
+    font-size: 38px;
+    font-weight: 800;
+    background:  linear-gradient(to right, #d400ff, #fc0362) ;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.services-format p{
+    color: #d4d4d4;
+    font-size: 24px;
+    line-height: 40px;
+    max-width: 300px;
+}
+.services button{
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #d400ff;
+    border: 2px solid white;
+    color: white;
+}
+.services-format:hover{
+    border: 2px solid #ff00ff;
+    background: linear-gradient(45deg , #3f0028 , #582300);
+    transform: scale(1.05);
+    transition: 0.4s;
+}

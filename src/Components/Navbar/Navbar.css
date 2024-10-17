@@ -1,0 +1,28 @@
+.navbar{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 3rem;
+    position: relative;
+}
+.nav-Menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    margin: 0 2rem;
+}
+.nav-connect{
+    padding: 0.5rem 1rem;
+    background: #FF0099;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #493240, #FF0099); 
+    background: linear-gradient(to right, #a600ff, #ff0055); 
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: 2s ease-in-out;
+}
+.nav-connect:hover{
+    transform: scale(1.1); 
+}
