@@ -1,4 +1,4 @@
-.hero{
+.hero {
     display: flex;
     flex-direction: column;
     place-items: center;
@@ -6,51 +6,64 @@
     margin-top: 1rem;
     padding: 0 0 8rem;
 }
-.hero-action{
+
+.hero-action {
     display: flex;
     gap: 5rem;
 }
-.hero-action a:nth-of-type(1){
+
+.hero-action .btn:nth-of-type(1) {
     padding: 0.6rem 1rem;
-    background: linear-gradient(to right, #a600ff, #ff0055); 
+    background: linear-gradient(to right, #a600ff, #ff0055);
     text-decoration: none;
     color: white;
     border-radius: 25px;
     cursor: pointer;
+    border: none;
 }
-.hero-action a:nth-of-type(2){
+
+.hero-action .btn:nth-of-type(2) {
     padding: 0.6rem 1rem;
     background: black;
-    border: 2px solid white; 
+    border: 2px solid white;
     text-decoration: none;
     color: white;
     border-radius: 25px;
     cursor: pointer;
+    border: none;
 }
-.hero-action a:nth-of-type(1):hover{
-    border: 2px solid white;  
+
+.hero-action .btn:nth-of-type(1):hover {
+    border: 2px solid white;
 }
-.hero-action a:nth-of-type(2):hover{
+
+.hero-action .btn:nth-of-type(2):hover {
     border: 2px solid rgb(255, 2, 255);
 }
-.hero-action a:hover{
+
+.hero-action .btn:hover {
     transform: scale(1.1);
+    transition: 1s;
 }
-.hero img{
+
+.hero img {
     width: 15%;
 }
-.hero h1{
+
+.hero h1 {
     font-size: 3.5rem;
     text-align: center;
     width: 60%;
 }
-.hero h1 span{
-    background:  linear-gradient(to right, #d400ff, #fc0362) ;
+
+.hero h1 span {
+    background: linear-gradient(to right, #d400ff, #fc0362);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.hero p{
+
+.hero p {
     width: 50%;
     text-align: center;
     font-size: 1.3rem;

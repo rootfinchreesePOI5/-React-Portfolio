@@ -1,31 +1,36 @@
-.my-work{
+.my-work {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 5rem 4% 5rem;
 }
-.my-work-container{
+
+.my-work-container {
     padding: 5rem;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
-.mywork-format:hover img{
+
+.mywork-format:hover img {
     transform: scale(1.05);
     transition: 0.4s;
 }
-.mywork-format img:hover{
+
+.mywork-format img:hover {
     border-radius: 15px;
 }
-.mywork-format img{
+
+.mywork-format img {
     box-sizing: border-box;
     width: 419px;
     height: 280px;
     transition: 0.3s;
     cursor: pointer;
 }
-.mywork-showmore button{
+
+.mywork-showmore button {
     padding: 1.2rem 3rem;
     display: flex;
     align-items: center;
@@ -36,7 +41,8 @@
     border-radius: 50px;
     font-size: 1rem;
 }
-.my-work button:hover{
+
+.my-work button:hover {
     transform: scale(1.05);
     transition: 0.4s;
     cursor: pointer;
